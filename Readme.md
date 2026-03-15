@@ -1,84 +1,63 @@
-# 🐶 Petlov
+# 🐶 Petlov – Automação de Testes End-to-End com Cypress
 
-![Petlov Cover](.github/cover.png)
+## 📌 Sobre o Projeto
 
-## 🚀 Sobre o Projeto
+Este repositório contém testes automatizados desenvolvidos com **Cypress** para a aplicação Petlov.
 
-O **Petlov** é um aplicativo web desenvolvido para **cadastro de pontos de doação de pets**, criado exclusivamente para os alunos do **Curso Ninja do Cypress**, ministrado pelo **Fernando Papito**! 🥷💻
+O projeto foi utilizado como ambiente prático durante o curso **Ninja do Cypress**, permitindo praticar automação de testes end-to-end em uma aplicação web real.
 
-Este projeto serve como ambiente prático para aprendizado e aplicação de técnicas avançadas de automação de testes com Cypress, proporcionando uma experiência real de desenvolvimento e teste de aplicações web modernas.
+Durante o desenvolvimento, utilizei este projeto como um **laboratório de automação**, explorando diferentes abordagens de testes, validações e organização de suítes de teste.
 
-### 🎯 Objetivos Pedagógicos
+## 🎯 O que pratiquei neste projeto
 
-- Praticar automação de testes end-to-end com Cypress
-- Integrar Github Actions com Cypress Cloud
+Neste projeto pratiquei:
 
-## 🛠️ Tecnologias Utilizadas
+- Criação de **testes automatizados end-to-end**
+- Automação de **fluxos completos de usuário**
+- Criação de **assertions e validações**
+- Organização de testes e estrutura de projeto
+- Execução automatizada de testes
+- Integração de testes com **CI/CD**
+- Execução de testes utilizando **GitHub Actions**
+- Monitoramento de execuções com **Cypress Cloud**
 
-### Desenvolvimento & Testes
-- [x] Git & GitHub 🌍 (Controle de versão e repositório remoto)
-- [x] Cypress 🧪 (Framework de testes end-to-end)
-- [x] Cypress Cloud ☁️ (Dashboard e relatórios de testes)
-- [x] GitHub Actions 🔄 (Integração contínua)
+## 🧪 Tecnologias Utilizadas
 
-## 📖 Como Usar
+- **Cypress** – Framework de automação de testes
+- **JavaScript** – Linguagem de desenvolvimento dos testes
+- **Git & GitHub** – Controle de versão
+- **GitHub Actions** – Integração contínua
+- **Cypress Cloud** – Dashboard e relatórios de execução de testes
 
-### 🎓 Para Alunos do Curso
+## ▶ Como executar os testes
 
-As instruções detalhadas de instalação, configuração e uso do **Petlov** estão disponíveis dentro da plataforma do **Curso Ninja do Cypress**.
+Clone o repositório:
 
-🔗 **Acesse o curso e seja Ninja da Automação em Cypress!** 👉 [ninjadocypress.com.br](https://ninjadocypress.com.br)
+git clone https://github.com/seu-usuario/petlov
 
-## 💬 Suporte
+Instale as dependências:
 
-### 📞 Canais Oficiais
+npm install
 
-Para suporte técnico e esclarecimento de dúvidas, utilize exclusivamente os **canais oficiais do Curso Ninja do Cypress**:
+Execute o Cypress:
 
-- 💬 **Fórum do Curso**: Discussões e dúvidas técnicas
-- 📧 **Suporte Direto**: Atendimento personalizado
-- 📱 **Comunidade**: Networking e troca de experiências
+npx cypress open
 
-### 🚫 Importante
+ou execute os testes em modo headless:
 
-Dúvidas técnicas **não** devem ser direcionadas para repositórios públicos ou outros canais não oficiais.
+npx cypress run
 
-## ⚠️ Contribuição
+## 📚 Referência do Curso
 
-O **Petlov** é um ambiente educacional **exclusivo** para os alunos do **Curso Ninja do Cypress**. Por questões pedagógicas e de controle de qualidade, este projeto **não aceita contribuições externas**.
+A aplicação utilizada neste repositório foi fornecida como ambiente de prática no curso **Ninja do Cypress**, ministrado por **Fernando Papito**.
 
-### 🎓 Para Alunos
+Este repositório contém os testes automatizados desenvolvidos durante os exercícios e práticas realizados no curso.
 
-- Utilize o projeto conforme orientações do curso
-- Compartilhe experiências nos canais oficiais
-- Contribua com discussões construtivas na comunidade
-
-## 🔒 Licença
-
-Este projeto é **propriedade exclusiva** do **Curso Ninja do Cypress** e seus respectivos autores.
-
-### ⚖️ Termos de Uso
-
-- 🎓 **Uso Educacional**: Limitado aos alunos matriculados no curso
-- 🚫 **Redistribuição Proibida**: Compartilhamento não autorizado é vedado
-- 📝 **Direitos Autorais**: Todos os direitos reservados
-- 🔐 **Confidencialidade**: Mantenha o conteúdo restrito ao ambiente do curso
-
----
+Curso oficial:  
+https://ninjadocypress.com.br
 
 ## 👨‍💻 Autor
 
-**Fernando Papito**  
-*Especialista em Automação de Testes e Cypress*
+Ian Alves Nascimento  
 
-📧 **Contato Profissional**: Através dos canais oficiais do curso  
-🌐 **Site Oficial**: [ninjadocypress.com.br](https://ninjadocypress.com.br)
-
----
-
-💙 **Desenvolvido com dedicação, muito café e paixão por ensinar** ☕  
-🚀 **Curso Ninja do Cypress** - *Transformando desenvolvedores em ninjas da automação* 🥷
-
----
-
-> 💡 **Dica**: Aproveite ao máximo este projeto! Ele foi cuidadosamente desenvolvido para acelerar seu aprendizado em automação de testes com Cypress. Explore, pratique e torne-se um verdadeiro ninja! 🥋✨
+QA Analyst | Estudante de Automação de Testes
